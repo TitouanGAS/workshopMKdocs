@@ -1,0 +1,31 @@
+site_name: Project Zomboid storage
+theme:
+    theme:
+    name: material
+    features:
+      - navigation.instant
+      - navigation.instant.progress
+      - navigation.tabs
+      - navigation.sections
+      - navigation.footer
+      - header.autohide
+      - search.suggest
+      - search.highlight
+      - content.tabs.link
+      - content.code.copy
+      - content.code.annotate
+    language: fr
+    palette:
+      - scheme: default
+        toggle:
+          icon: material/moon-waxing-crescent
+          name: Switch to dark mode
+        primary: red
+        accent: orange
+      - scheme: slate
+        toggle:
+          icon: material/white-balance-sunny
+          name: Switch to light mode
+        primary: red
+        accent: orange
+    copyrights: Made by &copyTitouan Gassier, 2024
